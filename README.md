@@ -48,6 +48,16 @@ Each Epic should include:
 - Definition of Done (DoD)
 - Start date
 - Due date
+- One or more workstream labels
+
+### Workstream Labels
+
+Every Epic must be tagged with one or more labels that correspond to the technical workstream(s) it belongs to.
+
+- Workstreams are implemented as GitHub labels.
+- Workstreams may evolve over time; check the current label list in this repository for the latest workstream labels.
+- If an Epic spans multiple workstreams, apply all relevant workstream labels.
+- Workstream labels make it easy to filter and report on Epic work by technical area.
 
 ### Epic Quality Standard
 
@@ -93,14 +103,15 @@ Use this structure when creating Epic descriptions:
 5. Dependencies  
 6. Definition of Done  
 7. Start Date  
-8. Due Date
+8. Due Date  
+9. Workstream Label(s)
 
 ## Quick Checklist
 
 Before submitting an issue:
 - Issue type selected
 - Repo placement is appropriate
-- If Epic: includes scope, dependencies, DoD, start date, due date
+- If Epic: includes scope, dependencies, DoD, start date, due date, and workstream label(s)
 - If non-Epic under Epic: parent relationship is set
 - Description is clear enough for someone outside the originating team
 
